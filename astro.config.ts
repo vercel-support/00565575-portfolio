@@ -67,9 +67,9 @@ export default defineConfig({
     },
   },
   redirects: {
-    '/contact': '/en#contact',
-    '/en/contact': '/en#contact',
-    '/de/kontakt': '/de#contact',
+    '/contact': '/en/#contact',
+    '/en/contact': '/en/#contact',
+    '/de/kontakt': '/de/#contact',
   },
   i18n: {
     locales: getLocales().map((value) => value.code),
